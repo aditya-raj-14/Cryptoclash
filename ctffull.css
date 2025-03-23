@@ -936,6 +936,29 @@ body {
     font-weight:300;
 }
 
-.eventflowimg{
+.eventflowimgdiv{
     margin: 8rem 0 0 0;
+    
+}
+
+.eventflowimage{
+    width:75%;
+    box-shadow: 0px 0px 20px #8400ff;
+
+}
+
+@media (max-width: 768px){
+  .eventflowimage{
+    width:85%;
+
+  }
+}
+
+@media (max-width: 480px){
+  .eventflowimage{
+    width: 95%;
+  }
+  .eventflowimgdiv{
+    margin: 2rem 0 0 0;
+}
 }
